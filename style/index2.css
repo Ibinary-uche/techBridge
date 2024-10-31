@@ -1,0 +1,36 @@
+.translate {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* translate: 100px 100px; */
+    /* transition-property: translate; */
+    /* transition-duration: 2s; */
+    /* transition: all 2s 2s ease-in; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transform: rotate(30deg) skew(30deg, 30deg) scale(1, 0.5); */
+}
+
+/* @keyframes example{
+    0%{
+        transform: scale(0.4);}
+        25%{background-color: blueviolet;}
+        50%{background-color: aquamarine;}
+        75%{background-color: brown;}
+        100%{transform: scale(2);}
+    }
+} */
+
+@media screen and (max-width:700px) {
+    .translate{
+        width: 50%;
+        height: 400px;
+        translation-duration: 2s:
+    }
+}
+h1{
+    font-size: 40px;
+}

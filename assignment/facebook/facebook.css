@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Helvetica neue" Helvetica sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* background-color: red; */
+
+}
+
+#facebook {
+    display: flexbox;
+    color: blue;
+    font-size: 25px;
+    font-style: normal;
+    justify-content: left;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 100%;
+    border: 2px solid blue;
+    background-color: rgb(245, 242, 242);
+}
+
+.login-left {
+    max-width: 50%;
+
+}
+
+.login-left h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+.login-left p {
+    font-size: 18px;
+    color: rgb(19, 19, 19);
+}
+
+.login-right {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.5);
+
+}
+
+/* .flex-box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    justify-content: ;
+    flex-direction: column-reverse;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 50px;
+
+} */
